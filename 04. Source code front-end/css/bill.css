@@ -1,0 +1,301 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    max-width: 1440px;
+    height: 974px;
+    margin: auto;
+    background: url(../img/bill/bill-background.png) no-repeat;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+input {
+    outline: none;
+}
+
+.wrapper {
+    width: 1070px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.container {
+    width: 1070px;
+    height: 728px;
+    /* margin: auto; */
+    margin-top: 84px;
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    background: #FFFFFF;
+
+}
+
+.customer {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 35px;
+}
+
+.cust__infor--tittle {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.cust__table {
+    width: 400px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.cust__table td {
+    margin-bottom: 8px;
+}
+
+form {
+    margin-top: 50px;
+    margin-bottom: 65px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+input {
+    width: 398px;
+    height: 55px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 14px;
+    background: #F5F5F5;
+    border-radius: 5px;
+    font-family: 'Space Grotesk';
+    border: 0px #fff;
+}
+
+.cust__button {
+    display: flex;
+}
+
+.cust__button--delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 208px;
+    height: 55px;
+    font-family: 'Space Grotesk';
+    background: #FFFFFF;
+    border: 1px solid #D20303;
+    border-radius: 60px;
+}
+
+.cust__button--delete p {
+    color: #D20303;
+}
+
+.cust__button img {
+    margin-right: 12px;
+}
+
+.cust__button--save {
+    width: 208px;
+    height: 55px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00AB11;
+    border: 1px solid #000F02;
+    border-radius: 60px;
+}
+
+.cust__button--save p {
+    color: #fff;
+    font-family: 'Space Grotesk';
+}
+
+.bill {
+    margin: 15px 44px 38px;
+}
+
+.bar {
+    height: 633px;
+    margin-top: 47px;
+}
+
+.bill__shop--name {
+    margin-bottom: 4px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.bill__shop--address,
+.bill__shop--phone {
+    margin-bottom: 4px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.bill__tittle {
+    margin-top: 17px;
+    margin-bottom: 4px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.bill__tittle--detail {
+    margin-bottom: 17px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.bill__cust--detail {
+    margin-bottom: 26px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.bill__cust--detail p {
+    margin-bottom: 4px;
+}
+
+.bill__table {
+    width: 440px;
+}
+
+.bill__table--header,
+.bill__table--detail {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bill__table--header {
+    margin-top: -3px;
+    margin-bottom: -5px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.bill__table--detail {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.bill__table--payment {
+    width: 440px;
+    margin-top: 33px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bill__table--payment td {
+    margin-bottom: 6px;
+    text-align: right;
+}
+
+.bill_cust--name,
+.bill_cust--phone,
+.bill_cust--point {
+    margin-bottom: 4px;
+}
+
+th,
+td {
+    text-align: left;
+}
+
+.bill__note {
+    margin-top: 38px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.bill__button--print {
+    width: 535px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    background: #181818;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 15px;
+}
+
+.bill__button--print p {
+    margin-left: 13px;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}

@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+ 
+/* font-family: 'Space Grotesk', sans-serif; */
+ 
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    height: 100%;
+}
+
+/* 1. Navigartion Bar start */
+.wrapper {
+    display: flex;
+}
+ 
+.wrapper__navbar {
+    width: 277px;
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../svg/product/background\ taskbar.svg)
+}
+ 
+.wrapper__navbar .logo img {
+    width: 155px;
+    margin-top: 60px;
+}
+ 
+.wrapper__nav {
+    margin-top: 80px;
+}
+ 
+.wrapper__nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 220px;
+    margin-bottom: 10px;
+    height: 51px;
+}
+ 
+.wrapper__nav--dashboard:hover,
+.wrapper__nav--product:hover,
+.wrapper__nav--staff:hover,
+.wrapper__nav--sale:hover,
+.wrapper__nav--customer:hover,
+.wrapper__nav--signout:hover {
+    background: linear-gradient(135deg, #F97794 0%, #623AA2 100%);
+    border-radius: 60px;
+}
+ 
+.wrapper__nav a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+    padding-left: 22px;
+}
+ 
+.wrapper__nav p {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+ 
+.wrapper__nav--transaction p {
+    color: #fff;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+ 
+.wrapper__nav--signout {
+    margin-top: 250px;
+}
+ 
+.wrapper__nav--transaction {
+    background: linear-gradient(135deg, #F97794 0%, #623AA2 100%);
+    border-radius: 60px;
+}
+ 
+.wrapper__container {
+    margin: 65px 60px 0 45px;
+    display: inline-block;
+}
+ 
+/* 2. Main Bar Top start */
+.container__header {
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+ 
+.header__title {
+    display: flex;
+    align-items: center;
+}
+ 
+.header__title img {
+    width: 38px;
+    height: 38px;
+    margin-right: 23px;
+}
+ 
+.header__title p {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+ 
+    color: #000000;
+}
+ 
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 330px;
+    height: 50px;
+    margin-left: 65px;
+    background: #F4F4F4;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+}
+ 
+.header__search img {
+    width: 25px;
+    height: 25px;
+    margin-left: 22px;
+    margin-right: 17px;
+}
+ 
+input {
+    background: #F4F4F4;
+    border: none;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    outline: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+ 
+.header__account {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 62px;
+    margin-left: 156px;
+    background: linear-gradient(135deg, rgba(249, 119, 148, 0.4) 0%, rgba(119, 64, 207, 0.4) 100%);
+    border-radius: 60px;
+}
+ 
+.header__account .avatar {
+    margin-left: 10px;
+}
+ 
+.header__account p {
+    margin-left: 15px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+ 
+.header__account .vector {
+    margin-left: 20px;
+}
+
+ 
+/* 3. Dropdown start */
+.main{
+    display: inline-flex;
+    width: 1130px;
+    margin-top: 80px;
+}
+
+.dropdown{
+    width: 1400px;
+}
+ 
+.dropdown-select{
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 6px;
+ 
+    width: 93px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    cursor: pointer;
+}
+ 
+.select{
+    margin-left: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+ 
+.icon{
+    margin-right: 8px;
+}
+ 
+.dropdown-select-stt{
+    padding: 4px;
+    border: solid 1px black;
+    border-radius: 5px;
+    font-size: 16px;
+ 
+    width: 185px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.select-stt{
+    margin-left: 5px;
+    text-align: left;
+}
+ 
+.icon-stt{
+    margin-bottom: 0.8px;
+    margin-right: 8px;
+}
+ 
+.detail-trans{
+    padding-top: 20px;
+    /* padding-left: 296px;
+    padding-right: 310px; */
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+ 
+ 
+/* 4. Tittle detail transactions */
+.card_detail{
+    padding-top: 25px;
+    /* padding-left: 295px; */
+}
+ 
+table{
+    border-collapse: collapse;
+    width: 1120px;
+}
+ 
+tr{
+    border-bottom: 0.5px solid rgb(193, 193, 193);
+}
+ 
+.card_detail table th,
+.card_detail table td {
+    padding: 0.9rem 0.2rem;
+    text-align: left;
+    min-width: 120px;
+    font-size: 15px;  
+}
+ 
+.card_detail table th{
+    color: rgba(0, 0, 0, 0.75);
+}
+ 
+.card_detail table td img{
+    width: 35px;
+}
+ 
+.card_detail table td p{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+}
+ 
+.card_detail table td h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+ 
+.detailsp {
+    display: flex ;
+    align-items: center;
+}
+ 
+.detailsp_sp {
+    margin-left: 10px;
+}
+ 
+/* cac id */
+.gia {
+    color: #EE9D00;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+ 
+.type {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+ 
+.status {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #00A61B;
+}
+ 
+/* 5. Page number start */
+.page_number{
+    padding-top: 75px;
+    padding-bottom: 95px;
+}
+ 
+.page_number ul{
+    display: flex;
+    list-style: none;
+}
+ 
+.page_number img{
+    display: flex;
+    cursor: pointer;
+    padding-top: 4px;
+}
+ 
+.active {
+    font-weight: 700;
+}
+ 
+.page_number ul li{
+    width: 40px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+footer {
+    width: 1440px;
+    height: 230px;
+    text-align: center;
+    background: url(../img/footer-background.png)
+}
+
+.footer__link {
+    margin-top: 72px;
+    /* text-align: center; */
+}
+
+.footer__link img {
+    width: 35px;
+    height: 35px;
+    margin-right: 18px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 100%;
+/* or 15px */
+
+
+color: #000000;
+}

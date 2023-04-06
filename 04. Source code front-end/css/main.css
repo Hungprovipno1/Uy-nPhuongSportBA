@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+ 
+ 
+/* TRANG CHỦ START */
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: url(../svg/home/background.svg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    /* height: 55px;     hàng thanh ngang trên
+    background: none;
+    box-shadow: 0px 1.5px 0px rgba(255, 255, 255, 0.629); */
+}
+ 
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+ 
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 50px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+}
+ 
+.navbar ul li a{
+    text-decoration: none;
+    color: #070707;
+}
+ 
+.navbar ul li::after{
+    content: '';
+    height: 5px;
+    width: 0;
+    background: #E56262;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    transition: 0.5s;
+}
+ 
+.navbar ul li:hover::after{
+    width: 100%;
+}
+ 
+.btn {
+    padding: 0.9rem 2.9rem;
+    border-radius: 60px;
+    background: linear-gradient(135deg, rgba(255, 103, 137, 0.9) 17.5%, rgba(98, 58, 162, 0.9) 100%);
+    box-shadow: 1px 1px 5px rgba(53, 23, 52, 0.45);
+}
+ 
+ 
+/* thuuuuu2 */
+.banner .content {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.banner .content .textbox {
+    margin-top: 60px;
+    margin-left: 110px;
+}
+ 
+.banner .content .textbox h1 {
+    color: rgb(6, 6, 6);
+    font-size: 75px;
+    line-height: 120%;
+    font-weight: 700;
+}
+ 
+.banner .content .textbox h1 span {
+    color: rgb(255, 255, 255);
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 110%;
+    text-shadow: -1.5px 0 rgb(119, 19, 98), 0 1.5px rgb(66, 8, 52)
+}
+ 
+.content .textbox p {
+    max-width: 600px;
+    margin-top: 40px;
+    color: black;
+    line-height: 130%;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+ 
+/* button st */
+
+.banner .content .textbox .bt1 a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.banner .content .textbox .bt2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.banner .content .textbox .bt1{
+    width: 210px;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 60px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    /* cursor: pointer; */
+    background-color: #000000;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+}
+ 
+.banner .content .textbox .bt1:hover {
+    transform: scale(1.08);
+}
+ 
+.banner .content .textbox .bt2 {
+    width: 210px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 51px 15px;
+    border-radius: 60px;
+    font-weight: 500;
+    border: 2px solid black;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 25px;
+    transition: 0.2s ease-in-out;
+    /* cursor: pointer; */
+}
+.banner .content .textbox .bt2:hover {
+    transform: scale(1.08);
+}
+/* button end */
+ 
+.content .imgbox {
+    max-width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+
+.content .imgbox .imghome{
+    max-width: 600.15px ;
+}
+/* TRANG CHỦ END */
+ 
+ 
+/* VỀ BLOSSOM START */
+.daydehinhnen {
+    width: 100%;
+    height: 100%;
+    background-image: url(../svg/home/back25.svg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+ 
+ 
+.facilities h1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+}
+ 
+.facilities p{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 100%;
+    margin-top: 2%
+}
+ 
+.facilities .row {
+    display: flex;
+    text-align: left;
+}
+ 
+.facilities-col {
+    margin-top: 42px;
+    padding: 25px;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    transition: transform 0.5s ease;
+}
+ 
+.facilities-col:hover {
+    transform: scale(1.04);
+}
+ 
+.facilities-col img{
+    border-radius: 10px;
+    border: #000000;
+    box-shadow: 2px 2px 7px 2px rgba(99, 35, 109, 0.4);
+    border:3px solid rgb(255, 255, 255);
+}
+ 
+.facilities-col p{
+    padding: 8px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 125%;
+}
+ 
+.facilities-col h3{
+    margin-top: 25px;
+    margin-bottom: 14px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 100%;
+    margin-left: 5px;
+}
+/* VỀ BLOSSOM END */
+ 
+/* PHẦN LIÊN HỆ START */
+.phanthubatren {
+    width: 100%;
+    height: 317px;
+    background-image: url(../svg/home/phantren.svg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+.phantren {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 170px;
+    color: rgb(255, 255, 255);
+}
+ 
+ 
+.phantren h1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 100%;
+}
+ 
+.phantren p{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 100%;
+    margin-top: 2%
+}
+
+.phanthubaduoi {
+    /* height: 290px; */
+}
+ 
+.phanthubaduoi img{
+    width: 100%;
+    /* height: 294px; */
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+.phan3day{                              
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+ 
+/* PHẦN CONTACT FORM */
+/*  */
+.contactform {
+    width: 59%;
+    height: 315px;
+    background: rgb(255, 255, 255);
+    padding: 80px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px rgba(68, 10, 83, 0.25);
+ 
+    position: absolute;
+    left: 225px;
+    top: 235px;
+}
+ 
+ 
+.contactform .inputbox {
+    position: relative;
+    width: 100%;
+    margin-top: 11px;
+    padding: 5px;
+    padding-left: 5px;
+}
+ 
+.contactform .inputbox2 {
+    margin-top: 32px;
+    margin-left: 120px;
+    padding: 5px;
+}
+ 
+.contactform .inputbox input {
+    width: 400px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    outline: none;
+}
+ 
+.contactform .inputbox span {
+    position: absolute;
+    left: 5px;
+    padding: 12px 0;
+    font-size: 16px;
+    /* margin: 10px 0; */
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+ 
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span {
+    color: #000000;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+ 
+ 
+.contactform .inputbox2 input[type="submit"] {
+    width: 145px;
+    height: 55px;
+    /* left: 570px; */
+    background: linear-gradient(135deg, rgba(255, 103, 137, 0.9) 17.5%, rgba(98, 58, 162, 0.9) 100%);
+    box-shadow: 1px 1px 5px rgba(53, 23, 52, 0.45);
+    border-radius: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+ 
+.contactform .inputbox2 input[type="submit"]:hover {
+    transform: scale(1.08);
+}
+ 
+/* Phần thông tin start */
+.contact-info {
+    background-color: #E56262;
+    width: 475px;
+    height: 310px;
+    background: linear-gradient(135deg, #F97794 0%, #6C43AD 100%);
+    border: 2px solid #000000;
+    border-radius: 15px 0px 0px 15px;
+ 
+    position: absolute;
+    box-sizing: border-box;
+ 
+    left: 807px;
+    /* right: 150px; */
+    top: 317px;
+    bottom: 17.98%;
+ 
+    padding: 2.3rem 2.3rem;
+}
+ 
+.contact-info h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+ 
+.information {
+    display: flex;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    margin: 0.7rem 0;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-left: 22px;
+    padding: 2.2px;
+}
+ 
+.icon {
+    width: 26px;
+    margin-right: 20px;
+}
+ 
+/* Phần thông tin end */
+ 
+/* PHẦN LIÊN HỆ END */
+.home-footer {
+    width: 100%;
+    height: 327px;
+    background: url(../img/home-contact-background.png);
+    background-size: cover;
+    text-align: center;
+    position:absolute;
+    top: 903px;
+}
+
+.home-footer .footer__link {
+    margin-top: 55px;
+}
+
+.home-footer .footer__link img {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.home-footer .footer__link img:hover {
+    transform: scale(1.2);
+}
+
+
+.home-footer .copyright {
+    margin-top: 65px;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0.02em;
+color: #000000;
+}
+
+.footer-nav {
+    margin-top: 45px;
+}
+
+.footer-nav a {
+    margin-right: 75px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 100%;
+/* or 25px */
+
+text-align: center;
+
+color: #000000;
+}
+
+.footer-nav a:hover {
+    font-weight: 700;
+}

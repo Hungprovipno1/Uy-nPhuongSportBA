@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch sử giao dịch</title>
+    <link rel="stylesheet" href="../css/transaction.css">
+</head>
+ 
+<body>
+    <div class="wrapper">
+        <!-- 1. Navigartion Bar start -->
+        <div class="wrapper__navbar">
+            <a href="/index.html" class="logo">
+            <img src="../svg/product/logo.svg" alt="" >
+            </a>
+ 
+            <div class="wrapper__nav">
+                <a href="../html/dashboard.html" class="wrapper__nav--dashboard">
+                    <img src="../svg/product/icon home.svg" alt="">
+                    <p>Tổng quan</p>
+                </a>
+ 
+                <a href="../html/product.html" class="wrapper__nav--product">
+                    <img src="../svg/transaction/icon product bl.svg" alt="">
+                    <p>Sản phẩm</p>
+                </a>
+ 
+                <a href="../html/transaction.html" class="wrapper__nav--transaction">
+                    <img src="../svg/transaction/icon lsgd white.svg" alt="">
+                    <p>Lịch sử giao dịch</p>
+                </a>
+ 
+                <a href="../html/staff.html" class="wrapper__nav--staff">
+                    <img src="../svg/product/icon staff.svg" alt="">
+                    <p>Nhân viên</p>
+                </a>
+ 
+                <a href="#" class="wrapper__nav--sale">
+                    <img src="../svg/product/icon sale.svg" alt="">
+                    <p>Bán hàng</p>
+                </a>
+ 
+                <a href="../html/customer.html" class="wrapper__nav--customer">
+                    <img src="../svg/product/icon cus.svg" alt="">
+                    <p>Khách hàng</p>
+                </a>
+ 
+                <a href="/index.html" class="wrapper__nav--signout">
+                    <img src="../svg/product/icon log out.svg" alt="">
+                    <p>Đăng xuất</p>
+                </a>
+            </div>
+        </div>
+ 
+ 
+        <div class="wrapper__container">
+            <!-- 2. Main Bar Top start -->
+            <div class="container__header">
+                    <!-- title -->
+                    <div class="header__title">
+                        <img src="../svg/product/icon_main_product.svg" alt="">
+                        <p><strong>Lịch sử giao dịch</strong></p>
+                    </div>
+ 
+                    <!-- search -->
+                    <div class="header__search">
+                        <img src="../svg/product/icon search.svg" alt="">
+                        <input type="text" name="search" id="" placeholder="Tìm kiếm...">
+                    </div>
+ 
+                    <!-- account -->
+                    <a href="../html/account.html" class="header__account" style="text-decoration: none;">
+                        <img src="../svg/product/avt main.svg" alt="" class="avatar">
+                        <p><strong>U.Phương Sport</strong></p>
+                        <img src="../svg/product/icon_main_detail_account.svg" alt="" class="vector">
+                    </a>
+            </div>
+
+            <!-- 3. Dropdown -->
+            <div class="main">
+                <div class="dropdown">
+                    <div class="dropdown-select">
+                        <span class="select">Ngày</span>
+                        <img src="../svg/transaction/icontamgiac.svg" class="icon">
+                    </div>
+         
+                    <div class="dropdown-select">
+                        <span class="select">Tháng</span>
+                        <img src="../svg/transaction/icontamgiac.svg" class="icon">
+                    </div>
+         
+                    <div class="dropdown-select">
+                        <span class="select">Năm</span>
+                        <img src="../svg/transaction/icontamgiac.svg" class="icon">
+                    </div>
+                </div>
+         
+                <div class="dropdown-select-stt">
+                    <span class="select-stt">Trạng thái</span>
+                    <img src="../svg/transaction/icontamgiac.svg" class="icon-stt">
+                </div>
+            </div>
+         
+            <div class="detail-trans">
+                <p>Số lượng giao dịch: 1200</p>
+                <p>Thành công</p>
+            </div>
+
+            <!-- 4. Detail transactions start -->
+            <div class="card_detail">
+                <table>
+                    <hr width="1120px" color="grey" size="1px"/>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Loại</th>
+                        <th>Số tiền</th>
+                        <th>Ngày</th>
+                        <th>Mã giao dịch</th>
+                        <th>Trạng thái</th>
+                    </tr>
+         
+                    <!-- trans1 -->
+                    <tr>  
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P1.svg" alt="">
+                            <div class="detail_sp">
+                                <div class="detailsp_sp">
+                                    <h4>Giày thể thao sneaker</h4>
+                                    <p>Nike</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="type">Giày</td>
+                        <td class="gia">245.000</td>
+                        <td>
+                            <h4>20/08/2022</h4>
+                            <p>19:02</p>
+                        </td>
+                        <td class="type">GTT300081</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+                   
+                    <!-- trans2 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P2.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Giày thể thao Teva</h4>
+                                <p>Teva</p>
+                            </div>
+                        </td>
+                        <td class="type">Giày</td>
+                        <td class="gia">325.000</td>
+                        <td>
+                            <h4>18/08/2022</h4>
+                            <p>20:02</p>
+                        </td>
+                        <td class="type">GTT300082</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+         
+                    <!-- trans3 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P3.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Giày thể thao J.Veja</h4>
+                                <p>J.Veja</p>
+                            </div>
+                        </td>
+                        <td class="type">Giày</td>
+                        <td class="gia">225.000</td>
+                        <td>
+                            <h4>17/08/2022</h4>
+                            <p>18:02</p>
+                        </td>
+                        <td class="type">GTT300083</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+         
+                    <!-- trans4 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P4.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Giày thể thao Nike lưới</h4>
+                                <p>Nike</p>
+                            </div>
+                        </td>
+                        <td class="type">Giày</td>
+                        <td class="gia">245.000</td>
+                        <td>
+                            <h4>20/08/2022</h4>
+                            <p>18:02</p>
+                        </td>
+                        <td class="type">GTT300081</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+         
+                    <!-- trans5 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P11.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Áo thể thao basic 17</h4>
+                                <p>Baz</p>
+                            </div>
+                        </td>
+                        <td class="type">Áo</td>
+                        <td class="gia">145.000</td>
+                        <td>
+                            <h4>20/08/2022</h4>
+                            <p>18:02</p>
+                        </td>
+                        <td class="type">GTT300085</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+         
+                    <!-- trans6 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P6.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Giày thể thao Gola</h4>
+                                <p>Gola</p>
+                            </div>
+                        </td>
+                        <td class="type">Giày</td>
+                        <td class="gia">345.000</td>
+                        <td>
+                            <h4>20/08/2022</h4>
+                            <p>18:02</p>
+                        </td>
+                        <td class="type">GTT300087</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+         
+                    <!-- trans7 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P7.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Giày thể thao Laces</h4>
+                                <p>Laces</p>
+                            </div>
+                        </td>
+                        <td class="type">Giày</td>
+                        <td class="gia">245.000</td>
+                        <td>
+                            <h4>20/08/2022</h4>
+                            <p>18:02</p>
+                        </td>
+                        <td class="type">GTT300081</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+                   
+                    <!-- trans8 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P9.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Giày thể thao Laces</h4>
+                                <p>Laces</p>
+                            </div>
+                        </td>
+                        <td class="type">Giày</td>
+                        <td class="gia">415.000</td>
+                        <td>
+                            <h4>20/08/2022</h4>
+                            <p>18:02</p>
+                        </td>
+                        <td class="type">GTT300081</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+         
+                    <!-- trans9 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P11.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Giày thể thao sneaker</h4>
+                                <p>Nike</p>
+                            </div>
+                        </td>
+                        <td class="type">Giày</td>
+                        <td class="gia">245.000</td>
+                        <td>
+                            <h4>20/08/2022</h4>
+                            <p>18:02</p>
+                        </td>
+                        <td class="type">GTT300081</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+         
+                    <!-- trans10 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P10.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Giày thể thao sneaker</h4>
+                                <p>Nike</p>
+                            </div>
+                        </td>
+                        <td class="type">Giày</td>
+                        <td class="gia">245.000</td>
+                        <td>
+                            <h4>20/08/2022</h4>
+                            <p>18:02</p>
+                        </td>
+                        <td class="type">GTT300081</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+         
+                    <!-- trans11 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P12.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Áo thể thao basic 42 </h4>
+                                <p>Baz</p>
+                            </div>
+                        </td>
+                        <td class="type">Áo</td>
+                        <td class="gia">155.000</td>
+                        <td>
+                            <h4>20/08/2022</h4>
+                            <p>12:52</p>
+                        </td>
+                        <td class="type">GTT300091</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+         
+                    <!-- trans12 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P14.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Giày thể thao sneaker</h4>
+                                <p>Nike</p>
+                            </div>
+                        </td>
+                        <td class="type">Giày</td>
+                        <td class="gia">245.000</td>
+                        <td>
+                            <h4>20/08/2022</h4>
+                            <p>18:02</p>
+                        </td>
+                        <td class="type">GTT300092</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+         
+                    <!-- trans13 -->
+                    <tr>
+                        <td class="detailsp">
+                            <img src="../svg/transaction/P13.svg" alt="">
+                            <div class="detailsp_sp">
+                                <h4>Áo nam North 2</h4>
+                                <p>North</p>
+                            </div>
+                        </td>
+                        <td class="type">Áo</td>
+                        <td class="gia">155.000</td>
+                        <td>
+                            <h4>12/07/2022</h4>
+                            <p>18:02</p>
+                        </td>
+                        <td class="type">GTT300093</td>
+                        <td class="status">Thành công</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- 4. DEtail transactions end-->
+
+
+            <!-- 5. Page number start -->
+            <div class="page_number">
+                <ul>
+                    <li><img src="../svg/transaction/danhsotrang.svg" alt=""></li>
+                    <li class="active">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li><img src="../svg/transaction/danhsotrang2.svg" alt=""></li>
+                </ul>
+            </div>
+            <!-- 5. Page number end -->
+        </div>
+
+       
+    </div>
+    <footer>
+        <hr style="width: 1440px">
+        <div class="footer__link">
+            <img src="../svg/sale/footer-fb.svg" alt="">
+            <img src="../svg/sale/footer-ig.svg" alt="">
+            <img src="../svg/sale/footer-linkedin.svg" alt="">
+            <img src="../svg/sale/footer-ytb.svg" alt="">
+        </div>
+
+        <p class="copyright">© 2022 Blosom. All right reserved</p>
+    </footer>
+   
+ 
+</body>

@@ -1,0 +1,478 @@
+* { 
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+}
+
+html {
+        font-size:62.5%;
+        line-height: 1.6rem;
+        box-sizing: border-box;
+        }
+
+body {
+        overflow-x: hidden;
+}
+
+ul {
+        list-style: none;
+}
+
+
+p, img, li,a, span {
+        display: block;
+}
+
+.wrapper {
+        max-width: 1440px;
+        display: flex;
+}
+
+.wrapper__navbar {
+        width: 277px;
+        height: 880px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(../img/sale/nav_background.png)
+    }
+    
+    .wrapper__navbar .logo img {
+        width: 155px;
+        margin-top: 60px;
+    }
+    
+    .wrapper__nav {
+        margin-top: 80px;
+    }
+    
+    .wrapper__nav a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        width: 220px;
+        margin-bottom: 10px;
+        height: 51px;
+    }
+    
+    .wrapper__nav--dashboard:hover,
+    .wrapper__nav--product:hover,
+    .wrapper__nav--transaction:hover,
+    .wrapper__nav--staff:hover,
+    .wrapper__nav--sale:hover,
+    .wrapper__nav--customer:hover,
+    .wrapper__nav--signout:hover {
+        background: linear-gradient(135deg, #F97794 0%, #623AA2 100%);
+        border-radius: 60px;
+    }
+    
+    .wrapper__nav a img {
+        margin-right: 18px;
+        padding-left: 22px;
+    }
+    
+    .wrapper__nav p {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .wrapper__nav--staff{
+        background: linear-gradient(135deg, #F97794 0%, #623AA2 100%);
+        border-radius: 60px;
+    }
+
+    .wrapper__nav--staff p{
+        color: #fff;
+    }
+    
+    .wrapper__nav--sale p {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+
+
+    .wrapper__nav--signout {
+        margin-top: 250px;
+    }
+    
+.container {
+        margin: 58px 62px 0 43px;
+        width: 100%;
+}
+
+.container__header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.container__header-title {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.container__header-title span {
+        padding-left: 18px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+}
+
+.container__header__title-logo img {
+        transition: 0.2s ease-in-out all;
+}
+
+.container__header__title-logo img:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+}
+
+.container__header-search {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 358px;
+        height: 50px;
+        background: #F4F4F4;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 40px;
+}
+
+.container__header-search-group {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+}
+
+.container__header-search-group input {
+        width: 75px;
+        height: 19px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        outline: none;
+        border: none;background: none;
+        margin: 0 17px;
+}
+
+.container__header-account {
+        height: 62px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(135deg, rgba(249, 119, 148, 0.4) 0%, rgba(122, 72, 201, 0.4) 100%);
+        border-radius: 60px;
+}
+
+.container__header-account-avt {
+        margin-left: 8px;
+}
+
+.container__header-account-name {
+        margin-left: 16px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+}
+
+.container__header-account-icon {
+        margin-left: 21px;
+        margin-right: 26px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+}
+
+.container__header-account-icon:hover {
+        transform: scale(1.2);
+}
+
+.container__content-option {
+        margin-top: 79px;
+        display:flex;
+        align-items: center;
+}
+
+.container__content-add {
+        width: 170px;
+        height: 45px;
+        background: #000000;
+        border-radius: 60px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 9px 30px;
+        transition: all 0.3s ease-in-out;
+}
+
+.container__content-add:hover {
+        transform: scale(1.1);
+}
+
+.container__content-add p {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+}
+
+.container__content-remove-tick {
+        margin-left: 22px;
+        border: 3px solid #ccc;
+        padding: 13px 7px;
+}
+
+.container__content-remove-tick{
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+}
+
+.container__content-remove-tick:hover{
+        transform: scale(1.1);
+}
+
+.container__content-remove-staff {
+        margin-left: 24px;
+}
+
+.container__content-remove-staff img{
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+}
+
+.container__content-remove-staff:hover img{
+        transform: scale(1.1);
+}
+
+.container__content-main {
+        margin-top: 47px;
+}
+
+.container__content-title-list {
+        width: 100%;
+        display:flex;
+        align-items: center;
+}
+
+.container__content-title-item {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: rgba(0, 0, 0, 0.75);
+}
+
+.container__content-title-item--staff {
+        margin-left: 190px;
+}
+.container__content-title-item--phone {
+        margin-left: 75px;
+}
+
+.container__content-title-item--salary {
+        margin-left: 75px;
+}
+
+.container__content-title-item--status {
+        margin-left: 55px;
+}
+
+.container__content-list {
+        margin-bottom: 125px;
+}
+
+.container__content-item {
+        margin-top: 25px;
+        height: 112px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px rgba(109, 38, 134, 0.25);
+        border-radius: 15px;
+        display:flex;
+        align-items: center;
+}
+
+.container__content-item--active {
+        max-width: 1058px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 7px 2px rgba(109, 38, 134, 0.25);
+        border-radius: 15px;
+}
+
+.container__content-item--active > .container__content-tick {
+        display: block;
+}
+
+.container__content-checkbox {
+        width: 25px;
+        height: 25px;
+        margin-left: 22px;
+}
+
+.container__content-item-checkbox input{
+        margin-left: 22px;
+        width: 25px;
+        height: 25px;
+        border: 2px solid #000000;
+        border-radius: 5px;
+}
+
+input[type="checkbox"] {
+        color: #959495;
+      }
+
+.container__content-item-avt img {
+        margin-left: 20px;
+}
+
+.container__content-item-name-position {
+        margin-left: 36px;
+}
+
+.container__content-name {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+ }
+
+ .container__content-position {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        color: rgba(0, 0, 0, 0.75);
+        margin-top: 6px;
+ }
+
+ .container__content-phone {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        margin-left: 30px;
+ }
+
+ .container__content-item-salary {
+        margin-left: 83px;
+ }
+
+ .container__content-salary {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #DA8300;
+ }
+
+ .container__content-worktime {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        color: rgba(0, 0, 0, 0.75);
+ }
+
+ .container__content-item-child-status {
+        margin-left: 44px;
+ }
+
+ .container__content-item-child-action {
+        margin-left: 60px;
+        display:none;
+        justify-content: space-between;
+        align-items: center;
+ }
+
+.container__content-item--active  .container__content-item-child-action {
+        display: flex;
+}
+
+ .container__content-item-child-action img:last-child {
+        margin-left: 40px;
+ }
+
+ .container__content-status {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #008A2F;
+ }
+
+ .container__content-worktime {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        color: rgba(0, 0, 0, 0.75);
+ }
+
+ footer {
+        overflow-x: hidden;
+        width: 100%;
+        background: url(../img/staff//footer_bg.png) no-repeat;
+        mix-blend-mode: normal;
+ }
+
+ .footer__wrapper {
+        max-width: 353px;
+        margin: 0 auto;
+        margin-top: 74px;
+        margin-bottom: 38px;
+ }
+
+ .footer__social {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+ }
+
+ .footer__social-item + .footer__social-item {
+        margin-left: 18px;
+ }
+
+ .footer__text {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+ }
+
+ .footer__text span{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0.02em;
+        color: #000000;
+        margin-left: 9px;
+ }
+

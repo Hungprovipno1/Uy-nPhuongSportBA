@@ -1,0 +1,448 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper__navbar {
+    width: 277px;
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/sale/nav_background.png)
+}
+
+.wrapper__navbar .logo img {
+    width: 155px;
+    margin-top: 60px;
+}
+
+.wrapper__nav {
+    margin-top: 80px;
+}
+
+.wrapper__nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 220px;
+    margin-bottom: 10px;
+    height: 51px;
+}
+
+.wrapper__nav--dashboard:hover,
+.wrapper__nav--product:hover,
+.wrapper__nav--transaction:hover,
+.wrapper__nav--staff:hover,
+.wrapper__nav--customer:hover,
+.wrapper__nav--signout:hover {
+    background: linear-gradient(135deg, #F97794 0%, #623AA2 100%);
+    border-radius: 60px;
+}
+
+.wrapper__nav a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+    padding-left: 22px;
+}
+
+.wrapper__nav p {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.wrapper__nav--dashboard p {
+    color: #fff;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.wrapper__nav--signout {
+    margin-top: 250px;
+}
+
+.wrapper__nav--dashboard {
+    background: linear-gradient(135deg, #F97794 0%, #623AA2 100%);
+    border-radius: 60px;
+}
+
+.wrapper__container {
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
+    margin: 65px 55px;
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+.container__header--title,
+.container__header--account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container__header--title p {
+    margin-left: 25px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.container__header--account {
+    width: 280px;
+    height: 62px;
+    justify-content: space-around;
+    background: linear-gradient(135deg, rgba(249, 119, 148, 0.4) 0%, rgba(113, 53, 210, 0.4) 100%);
+    border-radius: 60px;
+}
+
+.container__header--account p {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.container__option {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.container__option--item {
+    width: 180px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #FFF3FF;
+    box-shadow: 0px 0px 4px 1px rgba(210, 141, 253, 0.25);
+    border-radius: 5px;
+}
+
+.container__option--item p {
+    margin-left: 20px;
+}
+
+.option--item-today {
+    background: #975BAC;
+    box-shadow: 0px 0px 4px 3px rgba(210, 141, 253, 0.25);
+    border-radius: 5px;
+}
+
+.option__item--time-today,
+.option__item--revenue-today,
+.option__item--quantity-today {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.option__item--time-today {
+    font-weight: 500;
+
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.option__item--revenue-today {
+    font-weight: 500;
+
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.option__item--quantity-today {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.option__item--time {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.option__item--revenue {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #EB5E0F;
+}
+
+.option__item--quantity {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.container__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.container__content--chart {
+    height: 655px;
+    margin-bottom: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 2px rgba(115, 31, 129, 0.25);
+    border-radius: 15px;
+}
+
+.chart__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 17px;
+}
+
+.chart__header--name,
+.header__sort--time-list p {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.chart__header--sort-main {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.chart__header--sort-main p {
+    margin-right: 10px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #CD440A;
+}
+
+.chart__header--sort-time {
+    margin-left: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header__sort--time-list {
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.header__sort--time-note {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.chart-01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.chart__reference--row img {
+    width: 875px;
+}
+
+.chart__amount {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.chart__reference--row {
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chart__reference--col {
+    margin-right: -10px;
+}
+
+.chart__bar {
+    width: 875px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -39px;
+    left: 60px;
+}
+
+.chart__bar--item-note {
+    margin-top: 12px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.chart__amount p {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.chart-02 {
+    display: flex;
+    position: relative;
+    margin-left: 32px;
+}
+
+.chart__reference--col img {
+    margin-right: 45px;
+}
+
+.chart-02 .chart__amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.position {
+    position: relative;
+}
+
+.chart-02-ref-row {
+    position: absolute;
+    left: 670px;
+    margin-top: -10px;
+}
+
+.chart-02-note {
+    width: 687px;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 670px;
+}
+
+.chart-02-note p {
+    margin-right: 30px;
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #000000;
+}
+
+.chart-02-bar {
+    width: 613px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position:absolute;
+    left: 674px;
+    margin-top: -485px;
+}
+
+.chart-02-bar img {
+    height: 30px;
+}
+
+footer {
+    width: 1440px;
+    height: 230px;
+    text-align: center;
+    background: url(../img/footer-background.png)
+}
+
+.footer__link {
+    margin-top: 72px;
+    /* text-align: center; */
+}
+
+.footer__link img {
+    width: 35px;
+    height: 35px;
+    margin-right: 18px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 100%;
+/* or 15px */
+
+
+color: #000000;
+}

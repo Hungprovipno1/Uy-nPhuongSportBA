@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@400;500&family=Roboto+Slab:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Slab:wght@500;700&family=Space+Grotesk&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- navigation start-->
+        <div class="wrapper__navbar">
+            <a href="/index.html" class="logo">
+                <img src="../img/blossom-logo.png" alt="">
+            </a>
+
+            <div class="wrapper__nav">
+                <a href="#" class="wrapper__nav--dashboard">
+                    <img src="../svg/dashboard/nav-dashboard.svg" alt="">
+                    <p>Tổng quan</p>
+                </a>
+
+                <a href="../html/product.html" class="wrapper__nav--product">
+                    <img src="../svg/dashboard/nav-product.svg" alt="">
+                    <p>Sản phẩm</p>
+                </a>
+
+                <a href="../html/transaction.html" class="wrapper__nav--transaction">
+                    <img src="../svg/dashboard/nav-trans.svg" alt="">
+                    <p>Lịch sử giao dịch</p>
+                </a>
+
+                <a href="../html/staff.html" class="wrapper__nav--staff">
+                    <img src="../svg/dashboard/nav-staff.svg" alt="">
+                    <p>Nhân viên</p>
+                </a>
+
+                <a href="../html/sale.html" class="wrapper__nav--sale">
+                    <img src="../svg/dashboard/nav-sale.svg" alt="">
+                    <p>Bán hàng</p>
+                </a>
+
+                <a href="../html/customer.html" class="wrapper__nav--customer">
+                    <img src="../svg/dashboard/nav-cust.svg" alt="">
+                    <p>Khách hàng</p>
+                </a>
+
+                <a href="/index.html" class="wrapper__nav--signout">
+                    <img src="../svg/dashboard/nav-signout.svg" alt="">
+                    <p>Đăng xuất</p>
+                </a>
+            </div>
+        </div>
+        <!-- navigation end -->
+
+        <!-- container start -->
+        <div class="wrapper__container">
+            <!-- header start-->
+            <div class="container__header">
+                <!-- title start -->
+                <div class="container__header--title">
+                    <img src="../svg/dashboard/header-title.svg" alt="">
+                    <p>Tổng quan</p>
+                </div>
+                <!-- title end -->
+
+                <!-- account start -->
+                <div class="container__header--account">
+                    <img src="../img/avatar.png" alt="" class="avatar">
+                    <p><strong>U.Phương Sport</strong></p>
+                    <img src="../svg/dashboard/header-account-vector.svg" alt="">
+                </div>
+                <!-- account end -->
+            </div>
+            <!-- header end-->
+
+            <!-- option start -->
+            <div class="container__option">
+                <!-- option item 01 start -->
+                <div class="container__option--item option--item-today">
+                    <p class="option__item--time-today">Hôm nay</p>
+                    <p class="option__item--revenue-today">4.700.000</p>
+                    <p class="option__item--quantity-today">15 sản phẩm</p>
+                </div>
+                <!-- option item 01 end -->
+
+                <!-- option item 02 start -->
+                <div class="container__option--item">
+                    <p class="option__item--time">Hôm qua</p>
+                    <p class="option__item--revenue">4.700.000</p>
+                    <p class="option__item--quantity">15 sản phẩm</p>
+                </div>
+                <!-- option item 02 end -->
+
+                <!-- option item 03 start -->
+                <div class="container__option--item">
+                    <p class="option__item--time">Tuần trước</p>
+                    <p class="option__item--revenue">4.700.000</p>
+                    <p class="option__item--quantity">15 sản phẩm</p>
+                </div>
+                <!-- option item 03 end -->
+
+                <!-- option item 04 start -->
+                <div class="container__option--item">
+                    <p class="option__item--time">Tháng trước</p>
+                    <p class="option__item--revenue">4.700.000</p>
+                    <p class="option__item--quantity">15 sản phẩm</p>
+                </div>
+                <!-- option item 04 end -->
+
+                <!-- option item 05 start -->
+                <div class="container__option--item">
+                    <p class="option__item--time">90 ngày qua</p>
+                    <p class="option__item--revenue">4.700.000</p>
+                    <p class="option__item--quantity">15 sản phẩm</p>
+                </div>
+                <!-- option item 05 end -->
+            </div>
+            <!-- option end -->
+
+            <!-- main content bar chart start-->
+            <div class="container__content">
+
+                <!--bar chart 01 start  -->
+                <div class="container__content--chart">
+                    <!-- header start -->
+                    <div class="chart__header">
+                        <p class="chart__header--name">Xem thống kê</p>
+
+                        <div class="chart__header--sort-main">
+                            <p><strong>Theo doanh thu thuần</strong></p>
+                            <img src="../svg/dashboard/chart-sort-main-vector.svg" alt="">
+                        </div>
+
+                        <div class="chart__header--sort-time">
+                            <div class="header__sort--time-list">
+                                <p>Lọc theo</p>
+                                <img src="../svg/dashboard/chart-sort-time-vector.svg" alt="">
+                            </div>
+
+                            <p class="header__sort--time-note">Tuần này</p>
+                        </div>
+                    </div>
+                    <!-- header end -->
+
+                    <!-- chart main content start -->
+                    <div class="chart-01">
+                        <!-- amount -->
+                        <div class="chart__amount">
+                            <p>18tr</p>
+                            <p>16tr</p>
+                            <p>14tr</p>
+                            <p>12tr</p>
+                            <p>10tr</p>
+                            <p>8tr</p>
+                            <p>6tr</p>
+                            <p>4tr</p>
+                            <p>2tr</p>
+                            <p>0</p>
+                        </div>
+
+                        <!-- reference column -->
+                        <img src="../svg/dashboard/bar-01/chart-reference-col.svg" alt="" class="chart__reference--col">
+                        <!-- reference row -->
+                        <div class="chart__reference--row">
+                            <img src="../svg/dashboard/bar-01/chart-reference-row.svg" alt="">
+                            <img src="../svg/dashboard/bar-01/chart-reference-row.svg" alt="">
+                            <img src="../svg/dashboard/bar-01/chart-reference-row.svg" alt="">
+                            <img src="../svg/dashboard/bar-01/chart-reference-row.svg" alt="">
+                            <img src="../svg/dashboard/bar-01/chart-reference-row.svg" alt="">
+                            <img src="../svg/dashboard/bar-01/chart-reference-row.svg" alt="">
+                            <img src="../svg/dashboard/bar-01/chart-reference-row.svg" alt="">
+                            <img src="../svg/dashboard/bar-01/chart-reference-row.svg" alt="">
+                            <img src="../svg/dashboard/bar-01/chart-reference-row.svg" alt="">
+                            <img src="../svg/dashboard/bar-01/chart-reference-row.svg" alt="">
+                        </div>
+
+                        <!-- bar -->
+                        <div class="chart__bar">
+                            <!-- bar 01 -->
+                            <div class="chart__bar--item">
+                                <img src="../svg/dashboard/bar-01/chart-bar-01.svg" alt="">
+                                <p class="chart__bar--item-note">Thứ hai</p>
+                            </div>
+
+                            <!-- bar 02 -->
+                            <div class="chart__bar--item">
+                                <img src="../svg/dashboard/bar-01/chart-bar-02.svg" alt="">
+                                <p class="chart__bar--item-note">Thứ ba</p>
+                            </div>
+
+                            <!-- bar 03 -->
+                            <div class="chart__bar--item">
+                                <img src="../svg/dashboard/bar-01/chart-bar-03.svg" alt="">
+                                <p class="chart__bar--item-note">Thứ tư</p>
+                            </div>
+
+                            <!-- bar 04 -->
+                            <div class="chart__bar--item">
+                                <img src="../svg/dashboard/bar-01/chart-bar-04.svg" alt="">
+                                <p class="chart__bar--item-note">Thứ năm</p>
+                            </div>
+
+                            <!-- bar 05-->
+                            <div class="chart__bar--item">
+                                <img src="../svg/dashboard/bar-01/chart-bar-05.svg" alt="">
+                                <p class="chart__bar--item-note">Thứ sáu</p>
+                            </div>
+
+                            <!-- bar 06 -->
+                            <div class="chart__bar--item">
+                                <img src="../svg/dashboard/bar-01/chart-bar-06.svg" alt="">
+                                <p class="chart__bar--item-note">Thứ bảy</p>
+                            </div>
+
+                            <!-- bar 07 -->
+                            <div class="chart__bar--item">
+                                <img src="../svg/dashboard/bar-01/chart-bar-07.svg" alt="">
+                                <p class="chart__bar--item-note">Chủ nhật</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- chart main content end -->
+                </div>
+                <!--bar chart 01 end  -->
+
+                <!-- bar chart 02 start -->
+                <div class="container__content--chart positon">
+                    <!-- header start -->
+                    <div class="chart__header">
+                        <p class="chart__header--name">Top 10 sản phẩm bán chạy</p>
+
+                        <div class="chart__header--sort-main">
+                            <p><strong>Theo số lượng</strong></p>
+                            <img src="../svg/dashboard/chart-sort-main-vector.svg" alt="">
+                        </div>
+
+                        <div class="chart__header--sort-time">
+                            <div class="header__sort--time-list">
+                                <p>Lọc theo</p>
+                                <img src="../svg/dashboard/chart-sort-time-vector.svg" alt="">
+                            </div>
+
+                            <p class="header__sort--time-note">Tháng này</p>
+                        </div>
+                    </div>
+                    <!-- header end -->
+
+                    <div class="chart-02">
+                        <div class="chart__amount">
+                            <p>1. Áo thể thao nam SPT47</p>
+                            <p>2. Giày thể thao nữ Rostory</p>
+                            <p>3. Giày Nike Air Force nữ</p>
+                            <p>4. Giày thể thao nữ học sinh Ros...</p>
+                            <p>5. Áo thể thao nam SPT47</p>
+                            <p>6. Giày thể thao nữ Rostory</p>
+                            <p>7. Giày Nike Air Force nữ</p>
+                            <p>8. Giày thể thao nữ học sinh Ros...</p>
+                            <p>9. Giày Nike Air Force nữ</p>
+                            <p>10. Tất trắng basic nam nữ</p>
+                        </div>
+
+                        <div class="chart__reference--col">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                            <img src="../svg/dashboard/bar-02/chart-reference-col.svg" alt="">
+                        </div>
+                    </div>
+
+                    <img src="../svg/dashboard/bar-02/chart-reference-row.svg" alt="" class="chart-02-ref-row">
+
+                    <div class="chart-02-note">
+                        <p>0</p>
+                        <p>5</p>
+                        <p>10</p>
+                        <p>15</p>
+                        <p>20</p>
+                        <p>25</p>
+                        <p>30</p>
+                        <p>35</p>
+                        <p>40</p>
+                        <p>45</p>
+                        <p>50</p>
+                        <p>55</p>
+                        <p>60</p>
+                        <p>65</p>
+                    </div>
+
+                    <div class="chart-02-bar">
+                        <img src="../svg/dashboard/bar-02/chart-bar-01.svg" alt="">
+                        <img src="../svg/dashboard/bar-02/chart-bar-02.svg" alt="">
+                        <img src="../svg/dashboard/bar-02/chart-bar-03.svg" alt="">
+                        <img src="../svg/dashboard/bar-02/chart-bar-04.svg" alt="">
+                        <img src="../svg/dashboard/bar-02/chart-bar-05.svg" alt="">
+                        <img src="../svg/dashboard/bar-02/chart-bar-06.svg" alt="">
+                        <img src="../svg/dashboard/bar-02/chart-bar-07.svg" alt="">
+                        <img src="../svg/dashboard/bar-02/chart-bar-08.svg" alt="">
+                        <img src="../svg/dashboard/bar-02/chart-bar-09.svg" alt="">
+                        <img src="../svg/dashboard/bar-02/chart-bar-10.svg" alt="">
+                    </div>
+                </div>
+                <!-- bar chart 02 end -->
+            </div>
+            <!-- main content bar chart end-->
+        </div>
+        <!-- container end -->
+    </div>
+<footer>
+    <hr style="width: 1440px">
+    <div class="footer__link">
+        <img src="../svg/footer/footer-fb.svg" alt="">
+        <img src="../svg/footer/footer-ig.svg" alt="">
+        <img src="../svg/footer/footer-ytb.svg" alt="">
+        <img src="../svg/footer/footer-linkedin.svg" alt="">
+    </div>
+
+    <p class="copyright">© 2022 Blosom. All right reserved</p>
+
+</footer>
+</body>
+
+</html>

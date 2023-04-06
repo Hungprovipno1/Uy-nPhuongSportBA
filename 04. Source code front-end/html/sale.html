@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale</title>
+    <link rel="stylesheet" href="../css/sale.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@400;500&family=Roboto+Slab:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Slab:wght@500;700&family=Space+Grotesk&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Navigation Bar -->
+        <div class="wrapper__navbar">
+            <a href="/index.html" class="logo">
+                <img src="../img/blossom-logo.png" alt="">
+            </a>
+
+            <div class="wrapper__nav">
+                <a href="../html/dashboard.html" class="wrapper__nav--dashboard">
+                    <img src="../svg/sale/sale_dashboard.svg" alt="">
+                    <p>Tổng quan</p>
+                </a>
+
+                <a href="../html/product.html" class="wrapper__nav--product">
+                    <img src="../svg/sale/sale_product.svg" alt="">
+                    <p>Sản phẩm</p>
+                </a>
+
+                <a href="../html/transaction.html" class="wrapper__nav--transaction">
+                    <img src="../svg/sale/sale_transaction.svg" alt="">
+                    <p>Lịch sử giao dịch</p>
+                </a>
+
+                <a href="../html/staff.html" class="wrapper__nav--staff">
+                    <img src="../svg/sale/sale_staff.svg" alt="">
+                    <p>Nhân viên</p>
+                </a>
+
+                <a href="#" class="wrapper__nav--sale">
+                    <img src="../svg/sale/sale_sale.svg" alt="">
+                    <p>Bán hàng</p>
+                </a>
+
+                <a href="../html/customer.html" class="wrapper__nav--customer">
+                    <img src="../svg/sale/sale_cust.svg" alt="">
+                    <p>Khách hàng</p>
+                </a>
+
+                <a href="/index.html" class="wrapper__nav--signout">
+                    <img src="../svg/sale/sale_signout.svg" alt="">
+                    <p>Đăng xuất</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Container -->
+        <div class="wrapper__container">
+            <!-- Header -->
+            <div class="container__header">
+                <!-- title -->
+                <div class="header__title">
+                    <img src="../svg/sale/header_title.svg" alt="">
+                    <p><strong>Bán hàng</strong></p>
+                </div>
+
+                <!-- search -->
+                <div class="header__search">
+                    <img src="../svg/sale/header_search.svg" alt="">
+                    <input type="text" name="search" id="" placeholder="Tìm kiếm...">
+                </div>
+
+                <!-- account -->
+                <a href="../html/account.html" class="header__account" style="text-decoration: none;">
+                    <img src="../img/avatar.png" alt="" class="avatar">
+                    <p><strong>U.Phương Sport</strong></p>
+                    <img src="../svg/sale/sale_account_vector.svg" alt="" class="vector">
+                </a>
+            </div>
+
+            <!-- content -->
+            <div class="container__content">
+                <!-- option -->
+                <div class="container__option">
+                    <!-- Sort -->
+                    <div class="container__sort">
+                        <div class="container__sort--gender">
+                            <p>Nam</p>
+                            <img src="../svg/sale/option_sort_vector.svg" alt="">
+                        </div>
+
+                        <div class="container__sort--option">
+                            <p>Lọc theo</p>
+                            <img src="../svg/sale/option_sort_vector.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- List porducts -->
+                    <div class="container__list">
+                        <!-- Line porduct 01 -->
+                        <div class="list__line">
+                            <!-- Line item 01 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line01/01.png" alt="">
+                                </div>
+                                <p class="line__item--product-name"><strong>Giày thể thao sneaker</strong></p>
+                                <p class="line__item--product-category">Giày</p>
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+                                    <p class="line__item--product-price">245.000</p>
+                                </div>
+                            </div>
+
+                            <!-- Line item 02 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line01/02.png" alt="">
+                                </div>
+                                <p class="line__item--product-name"><strong>Áo thể thao basic 17</strong></p>
+                                <p class="line__item--product-category">Giày</p>
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+                                    <p class="line__item--product-price">155.000</p>
+                                </div>
+                            </div>
+
+                            <!-- Line 01 item 03 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line01/03.png" alt="">
+                                </div>
+                                <p class="line__item--product-name"><strong>Áo thể thao basic 42</strong></p>
+                                <p class="line__item--product-category">Quần áo</p>
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+                                    <p class="line__item--product-price">155.000</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- line product 02 -->
+                        <div class="list__line">
+                            <!-- line 02 item 01 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line02/01.png" alt="">
+                                </div>
+
+                                <p class="line__item--product-name"><strong>Giày thể thao Teva</strong></p>
+
+                                <p class="line__item--product-category">Giày</p>
+
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+
+                                    <p class="line__item--product-price">245.000</p>
+                                </div>
+                            </div>
+
+                            <!-- line 02 item 02 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line02/02.png" alt="">
+                                </div>
+
+                                <p class="line__item--product-name"><strong>Giày thể thao nữ Teva</strong></p>
+
+                                <p class="line__item--product-category">Giày</p>
+
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+
+                                    <p class="line__item--product-price">245.000</p>
+                                </div>
+                            </div>
+
+                            <!-- line 02 item 03 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line02/03.png" alt="">
+                                </div>
+
+                                <p class="line__item--product-name"><strong>Giày thể thao Nike lưới</strong></p>
+
+                                <p class="line__item--product-category">Giày</p>
+
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+
+                                    <p class="line__item--product-price">245.000</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- line product 03 -->
+                        <div class="list__line">
+                            <!-- line 03 item 01 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line03/01.png" alt="">
+                                </div>
+
+                                <p class="line__item--product-name"><strong>Giày thể thao Teva</strong></p>
+
+                                <p class="line__item--product-category">Giày</p>
+
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+
+                                    <p class="line__item--product-price">245.000</p>
+                                </div>
+                            </div>
+                            <!--line 03 item 02 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line03/02.png" alt="">
+                                </div>
+
+                                <p class="line__item--product-name"><strong>Giày thể thao chạy bộ</strong></p>
+
+                                <p class="line__item--product-category">Giày</p>
+
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+
+                                    <p class="line__item--product-price">245.000</p>
+                                </div>
+                            </div>
+                            <!--line 03 item 03 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line03/03.png" alt="">
+                                </div>
+
+                                <p class="line__item--product-name"><strong>Giày thể thao Gola</strong></p>
+
+                                <p class="line__item--product-category">Giày</p>
+
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+
+                                    <p class="line__item--product-price">245.000</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- line product 04 -->
+                        <div class="list__line">
+                            <!--line 04 item 01 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line04/01.png" alt="">
+                                </div>
+
+                                <p class="line__item--product-name"><strong>Giày thể thao Laces</strong></p>
+
+                                <p class="line__item--product-category">Giày</p>
+
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+
+                                    <p class="line__item--product-price">245.000</p>
+                                </div>
+                            </div>
+
+                            <!--line 04 item 02 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line04/02.png" alt="">
+                                </div>
+
+                                <p class="line__item--product-name"><strong>Giày thể thao Nike lưới</strong></p>
+
+                                <p class="line__item--product-category">Giày</p>
+
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+
+                                    <p class="line__item--product-price">245.000</p>
+                                </div>
+                            </div>
+
+                            <!--line 04 item 03 -->
+                            <div class="list__line--item">
+                                <div class="line__item--image">
+                                    <img src="../img/sale/list_line04/03.png" alt="">
+                                </div>
+
+                                <p class="line__item--product-name"><strong>Giày thể thao chạy bộ</strong></p>
+
+                                <p class="line__item--product-category">Giày</p>
+
+                                <hr style="width: 188px; color: rgba(0, 0, 0, 0.75); margin-bottom: 10px">
+
+                                <div class="line__item--product-options">
+                                    <div class="line__item--product-color">
+                                        <img src="../svg/sale/list_color/01.svg" alt="">
+                                        <img src="../svg/sale/list_color/02.svg" alt="">
+                                        <img src="../svg/sale/list_color/03.svg" alt="">
+                                    </div>
+
+                                    <p class="line__item--product-price">245.000</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- slide symbol -->
+                        <div class="container__list--slider">
+                            <img src="../svg/sale/container-list-slider-vector-left.svg" alt="" class="vector-left">
+                            <p class="site01"><strong>1</strong></p>
+                            <p class="site02">2</p>
+                            <p class="site03">3</p>
+                            <p class="site04">4</p>
+                            <p class="site05">5</p>
+                            <img src="../svg/sale/container-list-slider-vector-right.svg" alt="" class="vector-right">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- order -->
+                <div class="container__order">
+                    <!-- header -->
+                    <div class="container__order--header">
+                        <p class="order__header--title"><strong>Đơn hàng</strong></p>
+                        <button class="order__header--button-delete">Xóa (2)</button>
+                    </div>
+
+                    <!-- product chosen -->
+                    <div class="order__content">
+                        <!-- choice list 01 -->
+                        <div class="order__content--list">
+                            <div class="order__content--list-image">
+                                <img src="../img/sale/order/01.png" alt="">
+                            </div>
+
+                            <p class="order__content--list-name"><strong>Áo thể thao nam sport S42</strong></p>
+
+                            <button class="order__content--list-down" id="order-delete">
+                                <img src="../svg/sale/order-delete.svg" alt="">
+                            </button>
+
+                            <p class="order__content--list-quantity"><strong>1</strong></p>
+
+                            <buttton class="order__content--list-up">
+                                <img src="../svg/sale/order-up.svg" alt="">
+
+                            </buttton>
+
+                            <p class="order__content--list-price"><strong>245.000</strong></p>
+                        </div>
+
+                        <!-- choice list 02 -->
+                        <div class="order__content--list">
+                            <div class="order__content--list-image">
+                                <img src="../img/sale/order/02.png" alt="">
+                            </div>
+
+                            <p class="order__content--list-name"><strong>Giày thể thao Nike</strong></p>
+
+                            <button class="order__content--list-down">
+                                <img src="../svg/sale/order-down.svg" alt="">
+                            </button>
+
+                            <p class="order__content--list-quantity"><strong>2</strong></p>
+
+                            <buttton class="order__content--list-up">
+                                <img src="../svg/sale/order-up.svg" alt="">
+                            </buttton>
+
+                            <p class="order__content--list-price"><strong>490.000</strong></p>
+                        </div>
+
+                        <!-- choice list 03 -->
+                        <div class="order__content--list">
+                            <div class="order__content--list-image">
+                                <img src="../img/sale/order/03.png" alt="">
+                            </div>
+
+                            <p class="order__content--list-name"><strong>Áo nam North 2</strong></p>
+
+                            <button class="order__content--list-down">
+                                <img src="../svg/sale/order-down.svg" alt="">
+                            </button>
+
+                            <p class="order__content--list-quantity"><strong>2</strong></p>
+
+                            <buttton class="order__content--list-up">
+                                <img src="../svg/sale/order-up.svg" alt="">
+
+                            </buttton>
+
+                            <p class="order__content--list-price"><strong>490.000</strong></p>
+                        </div>
+
+                        <!-- choice list 04 -->
+                        <div class="order__content--list">
+                            <div class="order__content--list-image">
+                                <img src="../img/sale/order/04.png" alt="">
+                            </div>
+
+                            <p class="order__content--list-name"><strong>Giày thể thao nữ Teva</strong></p>
+
+                            <button class="order__content--list-down">
+                                <img src="../svg/sale/order-down.svg" alt="">
+                            </button>
+
+                            <p class="order__content--list-quantity"><strong>2</strong></p>
+
+                            <buttton class="order__content--list-up">
+                                <img src="../svg/sale/order-up.svg" alt="">
+                            </buttton>
+
+                            <p class="order__content--list-price"><strong>490.000</strong></p>
+                        </div>
+
+                        <!-- choice list 05 -->
+                        <div class="order__content--list">
+                            <div class="order__content--list-image">
+                                <img src="../img/sale/order/05.png" alt="">
+                            </div>
+
+                            <p class="order__content--list-name"><strong>Giày thể thao Gola</strong></p>
+
+                            <button class="order__content--list-down">
+                                <img src="../svg/sale/order-down.svg" alt="">
+                            </button>
+
+                            <p class="order__content--list-quantity"><strong>1</strong></p>
+
+                            <buttton class="order__content--list-up">
+                                <img src="../svg/sale/order-up.svg" alt="">
+                            </buttton>
+
+                            <p class="order__content--list-price"><strong>245.000</strong></p>
+                        </div>
+                    </div>
+
+                    <!-- payment -->
+                    <div class="container__order--payment">
+                        <div class="order__payment--item">
+                            <p><strong>Tổng tiền hàng</strong></p>
+                            <p><strong>2.745.000</strong></p>
+                        </div>
+
+                        <div class="order__payment--item">
+                            <p><strong>Chiết khấu</strong></p>
+                            <p><strong>55.800</strong></p>
+                        </div>
+
+                        <div class="order__payment--item">
+                            <p><strong>VAT</strong></p>
+                            <p><strong>23.200</strong></p>
+                        </div>
+
+                        <hr style="margin-top: 23px; margin-bottom: 10px;color: rgba(0, 0, 0, 0.2);">
+
+                        <div class="order__payment--item">
+                            <p><strong>Tổng thanh toán</strong></p>
+                            <p class="total-pay"><strong>1.975.000</strong></p>
+                        </div>
+                    </div>
+
+                    <!-- note -->
+                    <div class="container__order--note">
+                        <input type="text" placeholder="Ghi chú...">
+                    </div>
+
+                    <!-- pay button -->
+                    <a href="../html/bill.html" class="container__order--paying" style="text-decoration: none;">
+                        <p>Thanh toán</p>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <div class="footer__link">
+            <img src="../svg/sale/footer-fb.svg" alt="">
+            <img src="../svg/sale/footer-ig.svg" alt="">
+            <img src="../svg/sale/footer-linkedin.svg" alt="">
+            <img src="../svg/sale/footer-ytb.svg" alt="">
+        </div>
+
+        <p class="copyright">© 2022 Blosom. All right reserved</p>
+    </footer>
+</body>
+
+</html>

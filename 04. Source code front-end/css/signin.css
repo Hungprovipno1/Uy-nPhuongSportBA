@@ -1,0 +1,263 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: #F3F6F7;
+    --light_black: #44566C;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+body{
+    height: 868px;
+    margin:auto;
+}
+.signin{
+    display: flex;
+    justify-content: center;
+ 
+}
+.signin_left{
+    margin:0;
+    padding: 0;
+    background-image: url(../img/signin/Nền\ gra\ tím.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    /* background-size: cover; */
+    height: 868px;
+
+}
+
+.comeback{
+    display: flex;
+    
+}
+
+.comeback img{
+    width: 10px;
+    height: 17.47px;
+    margin-left: 100px;
+    margin-right: 4px;
+}
+
+.comeback a{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    margin-top: 44px ;
+    margin-left:24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.comeback a:hover{
+    color: #ffff;
+}
+
+.comeback .img :hover{
+    background-color: #ffff;
+}
+
+.img_desktop img {
+    width: 450px;
+    height: 450px;
+    margin-top: 60px;
+}
+
+.wellcom{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white);
+    margin-left: 100px;
+    margin-top: 46px;
+}
+
+.signin_left .psignin{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--white);
+    margin-left: 100px;
+    margin-top: 36px;
+    margin-top: 10px;
+    
+}
+
+.signin_right .logo_cancel .logo{
+    height: 34px;
+    width: 132px;
+    margin-left: 119px;
+    margin-top:  47px;
+
+}
+
+.signin_right .logo_cancel .cancel{
+    height: 18px;
+    width: 18px;
+    margin-left: 410px;
+    margin-top: 47px;
+    margin-right: 151px;
+}
+
+.box_signin{
+    margin-top: 86px;
+    margin-left: 135px; 
+    margin-bottom:20px ;
+}
+
+.box_signin .psignin{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    color: #2C192B;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+
+
+.name_phone_input {
+    width: 547px;
+    height: 36px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.25px;
+    color:rgba(0, 0, 0, 0.5);
+    border: 0px #FFFFFF;
+    outline: none;
+}
+
+.pass_input {
+    width: 547px;
+    height: 36px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.25px;
+    color:rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    border: 0px #FFFFFF;
+    outline: none;
+}
+
+.place_signin hr {
+    color:rgba(0, 0, 0, 0.001);
+    width: 546px;
+    margin-top: 10px;
+}
+
+.memopass{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.memopass p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+
+}
+.memopass .p1{
+    margin-right: 150px;
+    margin-left: 8px;
+}
+
+
+.button_signin{
+    margin-top: 60px;
+    margin-left: 189px;
+    width: 430px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #060606;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.div_button_signin a{
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align:center;
+}
+
+
+.button_register{
+    margin-top: 25px;
+    margin-left: 189px;
+    border: 1px solid ;
+    width: 430px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.div_button_register a{
+    text-decoration: none;
+    color: var(--black);
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align:center;
+}
+
+
+.end{
+    display: flex;
+}
+
+.end p{
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 76px;
+    margin-bottom: 52px;
+    text-decoration:none;
+
+}
+
+
+.end .p1{
+    margin-left: 220px;
+}
+
+.end u{
+    margin-left: 10px;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #000;
+}

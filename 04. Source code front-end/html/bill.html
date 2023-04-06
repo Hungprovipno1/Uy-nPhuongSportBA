@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill</title>
+    <link rel="stylesheet" href="../css/bill.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@400;500&family=Roboto+Slab:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">i
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Slab:wght@500;700&family=Space+Grotesk&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="group">
+        <div class="wrapper">
+            <div class="container">
+                <div class="customer">
+                    <p class="cust__infor--tittle"><strong>THÔNG TIN KHÁCH HÀNG</strong></p>
+
+                    <table class="cust__table">
+                        <tr>
+                            <td><strong>Tổng tiền hàng:</strong></td>
+                            <td style="text-align: right;">425.000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Điểm tích lũy nhận được:</strong></td>
+                            <td style="text-align: right;">4</td>
+                        </tr>
+                    </table>
+
+                    <form action="">
+                        <strong>Số điện thoại</strong>
+                        <p style="margin-left: 6px; display: inline-block; color: #F81E1E"><strong>*</strong></p><br>
+                        <input type="text" name="phone" placeholder="Nhập số điện thoại...">
+                        <br>
+                        <strong>Tên khách hàng</strong>
+                        <p style="margin-left: 6px; display: inline-block; color: #F81E1E"><strong>*</strong></p><br>
+                        <input type="text" name="fullname" placeholder="Nhập họ tên khách hàng...">
+                        <br>
+                        <strong>Ngày sinh</strong>
+                        <p style="margin-left: 6px; display: inline-block; color: #F81E1E"><strong>*</strong></p><br>
+                        <input type="date" name="dateofbirth">
+                    </form>
+
+                    <div class="cust__button">
+                        <button class="cust__button--delete"> <img src="../svg/bill/delete.svg" alt="">
+                            <p> Xóa tất cả</p>
+                        </button>
+                        <button class="cust__button--save"><img src="../svg/bill/save.svg" alt="">
+                            <p>Lưu thông tin</p>
+                        </button>
+                    </div>
+                </div>
+
+                <img src="../svg/bill/bar.svg" alt="" class="bar">
+
+                <div class="bill">
+                    <a href="../html/sale.html" class="close">
+                        <img src="../svg/bill/bill_X.svg" alt="" style="margin-left: 450px">
+                    </a>
+
+                    <p class="bill__shop--name"><strong>UYÊN PHƯƠNG SPORT</strong></p>
+
+                    <p class="bill__shop--address">Địa chỉ: 111 Nhật Lệ, Thuận Thành, Tp.Huế</p>
+
+                    <div class="bill__shop--phone">Điện thoại:090887575 - 093323252</div>
+
+                    <p class="bill__tittle"><strong>HÓA ĐƠN BÁN HÀNG</strong></p>
+
+                    <p class="bill__tittle--detail">Số hóa đơn: HD001535<br>Ngày 30 tháng 11 năm 2022</p>
+
+                    <div class="bill__cust--detail">
+                        <p class="bill__cust--name">Khách hàng: Nguyễn Quỳnh Anh Phương</p>
+
+                        <p class="bill__cust--phone">Số điện thoại: 0336521602</p>
+
+                        <p class="bill__cust--point">Điểm tích lũy: 4</p>
+                    </div>
+
+                    <img src="../svg/bill/bill_bar_solid.svg" alt="">
+                    <div class="bill__table">
+                        <!-- <img src="../svg/bill/bill_bar_solid.svg" alt=""> -->
+                        <div class="bill__table--header">
+                            <p><strong>Sản phẩm</strong></p>
+                            <p style="margin-left: 100px"><strong>Màu sắc</strong></p>
+                            <p><strong>SL</strong></p>
+                            <p><strong>Thành tiền</strong></p>
+                        </div>
+
+                        <img src="../svg/bill/bill_bar_solid.svg" alt="">
+
+                        <div class="bill__table--detail">
+                            <p>Giày thể thao xấu xí<br>Giày - 42</p>
+                            <p><br>Trắng</p>
+                            <p><br>1</p>
+                            <p><br>245.000</p>
+                        </div>
+                        <img src="../svg/bill/bill_bar_dash.svg" alt="">
+                        <div class="bill__table--detail">
+                            <p>Tất trơn WK<br>Phụ kiện</p>
+                            <p style="margin-left: 50px"><br>Đen</p>
+                            <p><br>1</p>
+                            <p><br>25.000</p>
+                        </div>
+                        <img src="../svg/bill/bill_bar_dash.svg" alt="">
+                        <div class="bill__table--detail">
+                            <p>Áo thể thao Sport WK<br>Áo quần - L</p>
+                            <p style="margin-left: -17px"><br>Trắng</p>
+                            <p><br>1</p>
+                            <p><br>155.000</p>
+                        </div>
+
+                        <img src="../svg/bill/bill_bar_dash.svg" alt="">
+                    </div>
+
+                    <table class="bill__table--payment">
+                        <tr>
+                            <td><strong>Tổng tiền hàng:</strong></td>
+                            <td><strong>425.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Chiết khấu:</strong></td>
+                            <td><strong>22.700</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>VAT:</strong></td>
+                            <td><strong>7.300</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Tổng thanh toán:</strong></td>
+                            <td><strong>409.600</strong></td>
+                        </tr>
+                    </table>
+
+                    <p class="bill__note">Cảm ơn và hẹn gặp lại quý khách!<br>Powered by BLOSSOM</p>
+                </div>
+            </div>
+
+            <a href="../html/sale.html" class="bill__button--print">
+                <img src="../svg/bill/print.svg" alt="" class="print">
+                <p>In hóa đơn</p>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>

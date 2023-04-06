@@ -1,0 +1,258 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 868px;
+    margin:auto;
+    /* padding: 0; */
+}
+.signup{
+    display: flex;
+    /* margin: auto; */
+    justify-content: center;
+ 
+}
+.signup_left{
+    margin:0;
+    padding: 0;
+    background-image: url(../img/signup/Nền\ đỏ\ đăng\ ký.png);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    height: 868px;
+}
+
+.comeback{
+    display: flex;
+}
+
+.comeback img{
+    width: 10px;
+    height: 17.47px;
+    margin-left: 150px;
+    margin-right: 4px;
+}
+
+.comeback a{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    margin-top: 34px ;
+    margin-left:24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.comeback a:hover{
+    color: #ffff;
+}
+
+.comeback .img :hover{
+    background-color: #ffff;
+}
+
+.img_desktop img {
+    max-width: 250px;
+    height: 250px;
+}
+
+.wellcom{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffff;
+    margin-left: 100px;
+    margin-top: 26px;
+}
+
+.signup_left .psignup{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffff;
+    margin-left: 100px;
+    margin-top: 36px;
+    margin-bottom: 19px;
+    
+}
+
+/* signin_right   */
+
+.signup_right .logo_cancel .logo{
+    height: 34px;
+    width: 132px;
+    margin-left: 199px;
+    margin-top:  34px;
+
+}
+
+.signup_right .logo_cancel .cancel{
+    height: 18px;
+    width: 18px;
+    margin-left: 432px;
+    margin-top: 34px;
+    margin-right: 210px;
+}
+
+
+.box_signup {
+    margin-top: 43px;
+    margin-left: 199px; 
+    margin-bottom:20px ;
+
+}
+.box_signup .psignup{
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 51px;
+
+}
+
+.name_input ,.phone_input, .email_input,.address_input, .stall_name_input, .signin_name_input, .pass_input, .accuracy_code_input{  
+    width: 547px;
+    height: 36px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.25px;
+    color:rgba(0, 0, 0, 0.5);
+    border: 0px #FFFFFF;
+    margin-top: 25px;
+}
+
+.box_signup hr{
+    width: 571px;
+}
+.box_signup .phone_email hr{
+    width: 254px;
+}
+.phone_email{
+    display: flex;
+}
+.phone_input, .email_input,.signin_name_input,.accuracy_code_input {
+    width: 254px;
+}
+.name_input , .stall_name_input{
+    width: 571px;
+}
+.pass_input {
+    width: 230px;
+}
+.phone_input ,.signin_name_input{
+    margin-right: 63px ;
+}
+
+.signin_name_pass{
+    display: flex;
+}
+.box_signup .signin_name_pass hr{
+    width: 254px;
+}
+
+.pass_input_img{
+    display: flex;
+}
+.pass_input_img img{
+    padding-top: 32px;
+}
+
+
+.accuracy{
+    display: flex;
+}
+.button_accuracy{
+    margin-top: 22px;
+    border: 1px solid #007B14;
+    height: 48px;
+    width: 254px;
+    border-radius: 5px;
+    background-color: #EDF7EE;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-right: 63px ;
+}
+
+.div_button_accuracy a{
+    text-decoration: none;
+    color:  #007B14;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.52px;
+    
+}
+
+.accuracy hr{
+    width: 254px;
+}
+
+.button_signup{
+    margin-top: 61px;
+    width: 430px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #060606;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.div_button_signup a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+
+.end{
+    display: flex;
+    justify-content: center;
+}
+
+.end p{
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-decoration:none;
+    
+}
+
+
+.end .p1{
+    /* margin-left: 140px; */
+}
+
+.end u{
+    margin-left: 10px;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #000;
+}
